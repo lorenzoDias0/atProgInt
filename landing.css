@@ -1,0 +1,180 @@
+html{
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #cecfeb;
+}
+
+header {
+  background: #88879b;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+
+  color: #504f68;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#secao1 {
+  background: #bcbde9;
+  color: #504f68;
+  border-radius: 20px;
+}
+
+#secao2 {
+  background: #a1a2ce;
+  color: #504f68;
+  border-radius: 20px;
+}
+
+#secao3 {
+  background: #a1a2ce;
+  color: #504f68;
+  border-radius: 20px;
+}
+
+#secao4 {
+  background: #6e6f92;
+  color: #b3b2e0;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #88879b;
+  color: #504f68;
+  position: relative;
+  text-decoration: none;
+}
+
+.espada {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  list-style-type: none;
+  border-radius: 20px;
+  color: #504f68;
+}
+
+.medieval {
+  width: 250px;
+  background-color: #4a4a5c;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.medieval:hover {
+  transform: scale(1.05);
+}
+
+.katana {
+  width: 350px;
+  rotate: 90deg;
+
+  background-color: #4a4a5c;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.katana:hover {
+  transform: scale(1.10);
+}
+
+.duplas {
+  width: 250px;
+  height: 350px;
+  background-color: #4a4a5c;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.duplas:hover {
+  transform: scale(1.10);
+}
+
+.pirata {
+  width: 250px;
+  background-color: #4a4a5c;
+  border-radius: 20px;
+  border-top: 100px solid #4a4a5c;
+  transition: transform 0.5s;
+}
+
+.pirata:hover {
+  transform: scale(1.10);
+}
+
+.nodachi {
+  width: 250px;
+  background-color: #4a4a5c;
+  border-radius: 20px;
+  border-top: 25px solid #4a4a5c;
+  transition: transform 0.5s;
+}
+
+.nodachi:hover {
+  transform: scale(1.10);
+
+}
+
+.espdas {
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.textoEspadas {
+  list-style-type: none;
+  display: flex;
+}
+
+.github{
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.instagram{
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.espadinha{
+  width: 20px;
+}
+
+.kataninha{
+  width: 20px;
+}
+
+.duplinhas{
+  width: 20px;
+}
+
+.nodachii{
+  padding: 0px;
+}
+
+.nodachiTexto{
+  list-style-type: none;
+}
