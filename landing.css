@@ -26,7 +26,6 @@ nav ul li {
 }
 
 nav ul li a {
-
   color: #504f68;
   text-decoration: none;
 }
@@ -37,9 +36,9 @@ section {
 }
 
 #secao1 {
-  background: #bcbde9;
-  color: #504f68;
-  border-radius: 20px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
 }
 
 #secao2 {
@@ -177,4 +176,29 @@ footer {
 
 .nodachiTexto{
   list-style-type: none;
+}
+
+.espada-header {
+  display: flex;
+  justify-content: left;
+  width: 90px;
+}
+
+#navbar {
+  background-color: #727272;
+}
+
+#textNavBar .nav-item .nav-link{
+  color: white;
+}
+
+#navbar .navbar-brand{
+  border-left: 20px #ffffff;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#navbar .navbar-brand img {
+  width: 40px;
 }
