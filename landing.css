@@ -12,7 +12,6 @@ body {
 
 header {
   background: #88879b;
-  padding: 10px 0;
 }
 
 nav ul {
@@ -22,7 +21,6 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
 }
 
 nav ul li a {
@@ -78,85 +76,6 @@ footer {
   text-decoration: none;
 }
 
-.espada {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  list-style-type: none;
-  border-radius: 20px;
-  color: #504f68;
-}
-
-.medieval {
-  width: 250px;
-  background-color: #4a4a5c;
-  border-radius: 20px;
-  transition: transform 0.5s;
-}
-
-.medieval:hover {
-  transform: scale(1.05);
-}
-
-.katana {
-  width: 350px;
-  rotate: 90deg;
-
-  background-color: #4a4a5c;
-  border-radius: 20px;
-  transition: transform 0.5s;
-}
-
-.katana:hover {
-  transform: scale(1.10);
-}
-
-.duplas {
-  width: 250px;
-  height: 350px;
-  background-color: #4a4a5c;
-  border-radius: 20px;
-  transition: transform 0.5s;
-}
-
-.duplas:hover {
-  transform: scale(1.10);
-}
-
-.pirata {
-  width: 250px;
-  background-color: #4a4a5c;
-  border-radius: 20px;
-  border-top: 100px solid #4a4a5c;
-  transition: transform 0.5s;
-}
-
-.pirata:hover {
-  transform: scale(1.10);
-}
-
-.nodachi {
-  width: 250px;
-  background-color: #4a4a5c;
-  border-radius: 20px;
-  border-top: 25px solid #4a4a5c;
-  transition: transform 0.5s;
-}
-
-.nodachi:hover {
-  transform: scale(1.10);
-
-}
-
-.espdas {
-  list-style-type: none;
-  justify-content: space-around;
-}
-
-.textoEspadas {
-  list-style-type: none;
-  display: flex;
-}
-
 .github {
   text-decoration: none;
   display: inline-flex;
@@ -167,31 +86,6 @@ footer {
   display: inline-flex;
 }
 
-.espadinha {
-  width: 20px;
-}
-
-.kataninha {
-  width: 20px;
-}
-
-.duplinhas {
-  width: 20px;
-}
-
-.nodachii {
-  padding: 0px;
-}
-
-.nodachiTexto {
-  list-style-type: none;
-}
-
-.espada-header {
-  display: flex;
-  justify-content: left;
-  width: 90px;
-}
 
 #navbar {
   background-color: #727272;
@@ -212,4 +106,23 @@ footer {
 
 #carouselExampleIndicators .carousel-inner img {
   width: 40px;
+}
+
+#imagemEspadas{
+  display: flex;
+  justify-content: space-around;
+}
+
+#imagemEspadas .card{
+  background-color: #000000;
+  color:#9a1bee ;
+}
+
+#imagemEspadas .card .btn{
+  background-color: #3c1557;
+  color: #9a1bee;
+}
+
+footer p{
+  color: rgb(98, 141, 235);
 }
