@@ -3,18 +3,18 @@
 
 <head>
   <div id="tudo">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
-  <!-- choose one -->
-  <script src="https://unpkg.com/feather-icons"></script>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-  <script>
-    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
-  <link rel="stylesheet" href="landing.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+    <link rel="stylesheet" href="landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 
 <body>
@@ -47,18 +47,7 @@
 
   <section id="secao1">
     <h1>Bem-vindo à nossa página de espadas</h1>
-    <p>A página é dedicada a mostrar os tipos diversos de espadas.</p><button type="button" class="btn btn-secondary"
-      data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-      Popover on top
-    </button>
-    <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
-      data-bs-placement="right" data-bs-content="Right popover">
-      Popover on right
-    </button>
-    <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
-      data-bs-placement="bottom" data-bs-content="Bottom popover">
-      Popover on bottom
-    </button>
+    <p>A página é dedicada a mostrar os tipos diversos de espadas.</p>
   </section>
 
   <section id="secao2">
@@ -80,9 +69,6 @@
 
 
 
-
-
-
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -93,6 +79,10 @@
                 <h5 class="card-title">Sabre</h5>
                 <p class="card-text">Espada curva usada por cavalaria, ideal para cortes.</p>
                 <a href="https://pt.wikipedia.org/wiki/Sabre" class="btn">Ver mais</a>
+
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="o sabre se destacou nas guerras napoleônicas por seu corte eficaz em combate montado.">Curiosidade</button>
+
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -101,6 +91,10 @@
                 <h5 class="card-title">Gládio</h5>
                 <p class="card-text">Espada curta romana para estocadas rápidas.</p>
                 <a href="https://pt.wikipedia.org/wiki/Gl%C3%A1dio" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Era a espada padrão dos legionários romanos; seu nome deu origem ao termo 
+                  gladiador">Curiosidade</button>
+
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -110,6 +104,9 @@
                 <h5 class="card-title">Katana</h5>
                 <p class="card-text">Principal espada japonesa, caracterizada pela lâmina curva.</p>
                 <a href="https://pt.wikipedia.org/wiki/Catana" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="A katana é tradicionalmente forjada com um processo de dobra do aço que pode 
+                  chegar a mais de mil camadas.">Curiosidade</button>
               </div>
             </div>
           </div>
@@ -123,6 +120,8 @@
                 <p class="card-text">Versátil, pode ser usada com uma ou duas mãos.
                 </p>
                 <a href="https://pt.wikipedia.org/wiki/Espada_bastarda" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Também chamada de espada de mão e meia, permitia uso com uma ou duas mãos, sendo versátil em combate.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -133,6 +132,8 @@
                   sendo caracterizada pelo curto alcance, lâmina comprida e perigosa.
                 </p>
                 <a href="https://pt.wikipedia.org/wiki/Espada" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Muitas tinham pontas reforçadas para perfurar armaduras de malha e placas, refletindo a evolução dos campos de batalha.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -142,6 +143,8 @@
                 <p class="card-text">Espada viking de aço superior, rara e valiosa.
                 </p>
                 <a href="https://en.wikipedia.org/wiki/Ulfberht_swords" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Feita entre os séculos 9 e 11, sua liga de aço era tão avançada que só foi possível reproduzi-la com precisão na era moderna.">Curiosidade</button>
               </div>
             </div>
           </div>
@@ -155,6 +158,8 @@
                 <p class="card-text">Espada reta chinesa de dois gumes, ágil e elegante.
                 </p>
                 <a href="https://pt.wikipedia.org/wiki/Espada_tai_chi" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Considerada a “espada dos cavalheiros” na China, o jian simboliza virtude, sabedoria e equilíbrio.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -165,6 +170,8 @@
                   mais específico, na pérsia
                 </p>
                 <a href="https://pt.wikipedia.org/wiki/Cimitarra" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="A lâmina curva da cimitarra é ideal para cortes rápidos e eficazes, especialmente em combates a cavalo no deserto.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -174,6 +181,8 @@
                 <p class="card-text">Espada chinesa curva, poderosa em cortes.
                 </p>
                 <a href="https://pt.wikipedia.org/wiki/Dao_(sabre)" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Popular na China imperial, o dao é conhecido como a espada do soldado, sendo mais voltado para cortes do que estocadas.">Curiosidade</button>
               </div>
             </div>
           </div>
@@ -186,6 +195,8 @@
                 <h5 class="card-title">Espadas Alfange</h5>
                 <p class="card-text">Espada europeia de um gume, parecida com facão.</p>
                 <a href="https://pt.wikipedia.org/wiki/Alfange_(arma)" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="De origem árabe, o alfange influenciou o design de muitas espadas europeias durante a Idade Média.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -194,6 +205,8 @@
                 <h5 class="card-title">Espadas duplas</h5>
                 <p class="card-text">Como o nome ja diz, é caracterizada por ser uma arma dupla, uma em cada mão.</p>
                 <a href="https://pt.wikipedia.org/wiki/Espada" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="Usadas em artes marciais e exibições, exigem grande destreza; personagens fictícios como Darth Maul ajudaram a popularizar esse estilo.">Curiosidade</button>
               </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -202,6 +215,8 @@
                 <h5 class="card-title">Espadas kris</h5>
                 <p class="card-text">Espada/daga asiática com lâmina ondulada e simbólica.</p>
                 <a href="https://pt.wikipedia.org/wiki/Kris" class="btn">Ver mais</a>
+                <button id="btnpop" type="submit" class="btn btn-dark" data-toggle="popover" data-bs-trigger="hover"
+                  data-bs-content="De origem malaia/indonésia, tem uma lâmina ondulada única, muitas vezes associada a poderes espirituais ou místicos.">Curiosidade</button>
               </div>
             </div>
           </div>
@@ -234,7 +249,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
-    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
 </body>
 
 </html>
