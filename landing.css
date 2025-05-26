@@ -57,7 +57,6 @@ section {
   text-align: center;
   background: #555555;
   color: #9a1bee;
-  border-radius: 20px;
 }
 
 #secao4 {
@@ -108,21 +107,34 @@ footer {
   width: 40px;
 }
 
-#imagemEspadas{
+#imagemEspadas {
   display: flex;
   justify-content: space-around;
 }
 
-#imagemEspadas .card{
+#carouselExample .card {
   background-color: #000000;
-  color:#9a1bee ;
+  color: #9a1bee;
+  display: flex;
+  margin: 0 auto;
+  height: 650px;
+  
 }
 
-#imagemEspadas .card .btn{
+#carouselExample .card .btn {
   background-color: #3c1557;
   color: #9a1bee;
 }
 
-footer p{
+footer p {
   color: rgb(98, 141, 235);
+}
+
+#carouselExample #itens-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tudo {
+  background-color: #221e2b;
 }
